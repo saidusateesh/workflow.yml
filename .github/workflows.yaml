@@ -18,7 +18,7 @@ jobs:
     - name: Trigger Jenkins
       uses: actions/jenkins-cli-action@v1
       with:
-        jenkins-url: ${{ secrets.JENKINS_URL }}
-        jenkins-user: ${{ secrets.JENKINS_USERNAME }}
-        jenkins-pass: ${{ secrets.JENKINS_PASSWORD }}
-        command: build job/my-project -p git-branch=${{ github.ref }}
+        jenkins-url: ${{ secrets.http://52.14.62.107:8080/ }}
+        jenkins-user: ${{ secrets.admin }}
+        jenkins-pass: ${{ secrets.admin }}
+        command: build job/my-project -p git-branch=${{  }}
