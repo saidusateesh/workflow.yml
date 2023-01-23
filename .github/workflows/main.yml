@@ -18,7 +18,7 @@ jobs:
     - name: Trigger Jenkins
       uses: actions/jenkins-cli-action@v1
       with:
-        jenkins-url: ${{ secrets.http://52.14.62.107:8080/ }}
+        jenkins-url: ${{ secrets.JENKINS_URL }}
         jenkins-user: ${{ secrets.admin }}
         jenkins-pass: ${{ secrets.admin }}
         command: build job/my-project -p git-branch=${{ https://github.com/saidusateesh/workflow.yml.git }}
