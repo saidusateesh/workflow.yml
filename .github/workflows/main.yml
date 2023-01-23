@@ -21,4 +21,4 @@ jobs:
         jenkins-url: ${{ secrets.JENKINS_URL }}
         jenkins-user: ${{ secrets.admin }}
         jenkins-pass: ${{ secrets.admin }}
-        command: build job/my-project -p git-branch=${{ https://github.com/saidusateesh/workflow.yml.git }}
+        command: build job/my-project -p git-branch=${{ 'https://github.com/saidusateesh/workflow.yml.git' }}
